@@ -1,0 +1,9 @@
+button{
+    border: 1px solid brown;
+    background-color: transparent;
+    color: rebeccapurple;
+}
+
+.card{
+    font-family: "Poppins";
+}

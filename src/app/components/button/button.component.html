@@ -1,0 +1,8 @@
+<div class="card" style="width: 100vw">
+    <div [hidden]="!loader" class="text-center">
+        Retrieving the best joke for you...
+        </div>
+    <div class="card-body" [hidden]="loader">
+        <h3 class="card-title">{{currentSetup}} {{currentPunchline}}</h3>
+    </div>
+</div>
